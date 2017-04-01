@@ -1,0 +1,118 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.muniappbeta.fragments.CajaCentralFragment"
+    android:padding="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <TextView
+                android:text="@string/fecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:layout_weight="1.5"
+                android:gravity="bottom|left" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:id="@+id/input_fecha"
+                android:layout_weight="1.5"
+                android:hint="AAAA-MM-DD"
+                android:padding="5dp"
+                android:background="@drawable/edittextstyle"
+              />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <TextView
+                android:text="@string/mvmiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_weight="1.5"
+                android:gravity="bottom|left"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/numMovimiento"
+                android:layout_weight="1.5"
+                android:hint="0000000"
+                android:padding="5dp"
+                android:background="@drawable/edittextstyle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <TextView
+                android:text="@string/cajero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:layout_weight="1.5"
+                android:gravity="bottom|left"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/tvCajeroCC"
+                android:layout_weight="1.5"
+                android:padding="5dp"
+                android:hint="@string/ingreseCajero"
+                android:background="@drawable/edittextstyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:weightSum="1">
+
+            <Button
+                android:text="@string/Buscar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnBuscarCC"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.21" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Municipalidad Provincial de Huaura</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="RegistroCivil">Registro Civil</string>
+    <string name="CajaCentral">Caja Central</string>
+    <string name="color">Color</string>
+    <string name="idioma">Idioma</string>
+    <string name="Configuraciones">Configuraciones</string>
+    <string name="btnRCConsulta">Consulta Registro Civil</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="consultarPago">Consultar Pago</string>
+    <string name="IngreseCodigo">Ingrese Codigo...</string>
+    <string name="Buscar">Buscar</string>
+    <string name="muniHuaura" translatable="false">Municipalidad Provincial de Huaura</string>
+    <string name="gerenciaAdm" translatable="false">Gerencia de Administracion Tributaria</string>
+    <string name="ruc" translatable="false">RUC.20141418557 DIRECCION. CALLE COLON N°150-HUACHO</string>
+    <string name="GAT" translatable="false">GAT</string>
+    <string name="cajero">Cajero</string>
+    <string name="fecha">Fecha</string>
+    <string name="ingreseRecibo">Ingrese N° Recibo</string>
+    <string name="consultar">Consultar</string>
+    <string name="nomyape">Nombres y Apellidos</string>
+    <string name="tipoPartida">Tipo de Partida</string>
+    <string name="ubicFolio">Ubicacion de Folio</string>
+    <string name="Importe">Importe</string>
+    <string name="anoRegistro">Año de Registro:</string>
+    <string name="totalAPagar">Total A Pagar</string>
+    <string name="ctaCte">Cuenta Corriente</string>
+    <string name="ctaComun">Cuenta Ahorro</string>
+    <string name="backButton">Atras</string>
+    <string name="mvmiento">N° de Movimiento</string>
+    <string name="ingreseCajero">Ingrese numero cajero</string>
+    <string name="tributo">Tributo</string>
+    <string name="contribuyente">Contribuyente</string>
+    <string name="mov">Mov</string>
+    <string name="nombre">Nombre</string>
+    <string name="TolDeuda">Tol. Deuda</string>
+    <string name="TolEmision">Tol. Emision</string>
+    <string name="TolMoReIn">Tol. Mo+Re+In</string>
+    <string name="obs">Observacion</string>
+    <string name="Liq">Liq.</string>
+    <string name="total">Total</string>
+    <string name="Concepto">Concepto</string>
+    <string name="home">Inicio</string>
+    <string name="ingrNombre">Ingrese Nombre...</string>
+    <string name="regyestcivil">Registro y Estado Civil</string>
+    <string name="apepaterno">Apellido Paterno</string>
+    <string name="apematerno">Apellido Materno</string>
+    <string name="nombres">Nombres</string>
+    <string name="sex">Sexo</string>
+    <string name="fechaDefunc">Fecha de defuncion</string>
+    <string name="fechainscripcion">Fecha de inscripcion</string>
+    <string name="escojeOpcion">Escoje una Opcion</string>
+</resources>

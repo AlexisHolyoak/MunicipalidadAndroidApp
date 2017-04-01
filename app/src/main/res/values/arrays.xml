@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cabecera_matrimonio">
+        <item>Apellido Paterno</item>
+        <item>Apellido Materno</item>
+        <item>Nombres</item>
+        <item>Apellido Paterno</item>
+        <item>Apellido Materno</item>
+        <item>Nombres</item>
+        <item>Fecha matrimonio</item>
+        <item>Fecha de inscripcion</item>
+    </string-array>
+    <string-array name="cabecera_nacimiento">
+        <item>Apellido Paterno</item>
+        <item>Apellido Materno</item>
+        <item>Nombres</item>
+        <item>Sexo</item>
+        <item>Fecha de nacimiento</item>
+        <item>Fecha de inscripcion</item>
+    </string-array>
+    <string-array name="cabecera_defuncion">
+        <item>Apellido Paterno</item>
+        <item>Apellido Materno</item>
+        <item>Nombres</item>
+        <item>Sexo</item>
+        <item>Fecha de defuncion</item>
+        <item>Fecha de inscripcion</item>
+    </string-array>
+
+</resources>

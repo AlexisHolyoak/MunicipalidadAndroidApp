@@ -1,0 +1,335 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.muniappbeta.forms.RcConsPagoFragment"
+    android:padding="16dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:isScrollContainer="false">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/input_num_recibo"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextstyle"
+                    android:hint="@string/ingreseRecibo"
+                    android:paddingLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:paddingRight="5dp" />
+
+                <Button
+                    android:text="@string/consultar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnConsultaRC"
+                    android:layout_weight="2"
+                    android:textSize="12sp"
+                    android:background="@drawable/button_style"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:text="@string/cajero"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView8"
+                        android:layout_weight="1"
+                        android:gravity="bottom|left"
+                        android:textStyle="normal|bold"
+                        android:layout_marginRight="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvCajeroRC"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:background="@drawable/textviewstyle"
+                        android:layout_marginRight="5dp"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:text="@string/fecha"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView15"
+                        android:layout_weight="1"
+                        android:gravity="bottom|left"
+                        android:textStyle="normal|bold"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvFechaRC"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:background="@drawable/textviewstyle"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="@string/nomyape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView28"
+                        android:layout_weight="1"
+                        android:gravity="bottom|left"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvNomYApe"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="@drawable/textviewstyle"
+                        android:paddingRight="5dp"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="@string/tipoPartida"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView31"
+                        android:layout_weight="1"
+                        android:gravity="bottom|left"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvTipoPartidaRc"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:background="@drawable/textviewstyle"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="@string/ubicFolio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView42"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:layout_marginRight="5dp"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:text="@string/Importe"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView41"
+                    android:layout_weight="2"
+                    android:gravity="bottom|center"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvLibRC"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewstyle"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:text="Lib:"
+                        android:textSize="13sp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvFolioRC"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewstyle"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:text="Folio:"
+                        android:textSize="13sp"
+                        android:layout_marginBottom="1dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:layout_marginBottom="1dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvImporte"
+                        android:gravity="center"
+                        android:background="@drawable/textviewstyle"
+                        android:text="S./0.00"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:text="Año de Registro:"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvAnioRegistroRC"
+                        android:layout_weight="1"
+                        android:paddingLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/textviewstyle"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:text="@string/totalAPagar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView49"
+                        android:layout_weight="1"
+                        android:gravity="right|center"
+                        android:textStyle="normal|bold"
+                        android:paddingRight="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:text="0"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvCantidad"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewstyle"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvTotalAPagar"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewstyle"
+                        android:paddingLeft="5dp"
+                        android:gravity="center"
+                        android:layout_marginTop="1dp"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

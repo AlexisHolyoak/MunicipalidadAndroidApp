@@ -1,0 +1,288 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.muniappbeta.forms.CcCtaCteFragment"
+    android:padding="16dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="3dp">
+
+                <TextView
+                    android:text="@string/tributo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView7"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvTributoCcte"
+                    android:layout_weight="1"
+                    android:background="@drawable/textviewstyle"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="3dp">
+
+                <TextView
+                    android:text="@string/contribuyente"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView9"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:textSize="14sp"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvContribuyenteCcte"
+                    android:layout_weight="1"
+                    android:background="@drawable/textviewstyle"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="3dp">
+
+                <TextView
+                    android:text="@string/mov"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView17"
+                    android:layout_weight="1"
+                    android:textStyle="normal|bold"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvMovCcte"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/textviewstyle"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:text="@string/cajero"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView12"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvCajeroCcte"
+                    android:layout_weight="1"
+                    android:background="@drawable/textviewstyle"
+                    android:paddingLeft="5dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="3dp">
+
+                <TextView
+                    android:text="@string/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView29"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvNombreCcte"
+                    android:layout_weight="1"
+                    android:background="@drawable/textviewstyle"
+                    android:paddingLeft="5dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvIntervaloFechaCcte"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="3dp">
+
+                <TextView
+                    android:text="@string/TolDeuda"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView34"
+                    android:layout_weight="2"
+                    android:textStyle="normal|bold"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvTolDeudaCcte"
+                    android:layout_weight="1"
+                    android:background="@drawable/textviewstyle"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="3dp">
+
+                <TextView
+                    android:text="@string/TolEmision"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView36"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvTolEmisionCcte"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/textviewstyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="3dp">
+
+                <TextView
+                    android:text="@string/TolMoReIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView38"
+                    android:layout_weight="2"
+                    android:textStyle="normal|bold"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvTolMeReInCcte"
+                    android:layout_weight="1"
+                    android:background="@drawable/textviewstyle"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView40"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvTotalCcte"
+                    android:layout_weight="1"
+                    android:background="@color/plata"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvUsuarioCcte"
+                    android:layout_weight="1"
+                    android:gravity="left|center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvFechaCcte"
+                    android:layout_weight="1"
+                    android:gravity="right|center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/tvHoraCcte"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
