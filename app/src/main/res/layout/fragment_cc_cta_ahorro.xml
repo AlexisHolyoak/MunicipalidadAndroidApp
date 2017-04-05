@@ -3,14 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.muniappbeta.forms.CcCtaAhorroFragment"
-    android:paddingLeft="20dp"
-    android:paddingRight="20dp"
-    android:paddingTop="20dp"
-    android:paddingBottom="0dp">
-
-    <!-- TODO: Update blank fragment layout -->
-
+    tools:context="pe.gob.munihuacho.municipalidadhuacho.forms.CcCtaAhorroFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -60,7 +53,8 @@
                             android:layout_marginRight="5dp"
                             android:gravity="center_vertical"
                             android:paddingLeft="5dp"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"
+                            android:textColor="@color/negro" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -88,7 +82,8 @@
                             android:layout_marginLeft="5dp"
                             android:gravity="center_vertical"
                             android:paddingLeft="5dp"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"
+                            android:textColor="@color/negro" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -115,7 +110,8 @@
                         android:background="@drawable/textviewstyle"
                         android:gravity="center_vertical"
                         android:paddingLeft="5dp"
-                        android:textSize="13sp" />
+                        android:textSize="13sp"
+                        android:textColor="@color/negro" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -141,7 +137,8 @@
                         android:layout_weight="1"
                         android:gravity="center_vertical"
                         android:paddingLeft="5dp"
-                        android:textSize="13sp" />
+                        android:textSize="13sp"
+                        android:textColor="@color/negro" />
 
                 </LinearLayout>
 
@@ -157,46 +154,47 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                <TableLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tabla"
-                    android:layout_marginTop="5dp">
-
-                    <TableRow
+                    <TableLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tabla"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="top|center">
 
-                        <TextView
-                            android:text="@string/Concepto"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/textView25"
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
 
-                            android:layout_marginRight="5dp"
-                            android:textStyle="normal|bold"
-                            android:gravity="left|center"
-                            android:layout_weight="1" />
+                            <TextView
+                                android:text="@string/Concepto"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView25"
 
-                        <TextView
-                            android:text="@string/Importe"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/textView24"
+                                android:layout_marginRight="5dp"
+                                android:textStyle="normal|bold"
+                                android:gravity="left|center"
+                                android:layout_weight="1" />
 
-                            android:layout_marginLeft="5dp"
-                            android:textStyle="normal|bold"
-                            android:gravity="center"
-                            android:layout_weight="1" />
-                    </TableRow>
+                            <TextView
+                                android:text="@string/Importe"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView24"
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                                android:layout_marginLeft="5dp"
+                                android:textStyle="normal|bold"
+                                android:gravity="center"
+                                android:layout_weight="1" />
+                        </TableRow>
 
-                    </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
 
-                </TableLayout>
+                        </TableRow>
+
+                    </TableLayout>
                 </HorizontalScrollView>
             </ScrollView>
 
@@ -230,7 +228,7 @@
                         android:background="@drawable/textviewstyle"
                         android:gravity="center"
                         android:paddingLeft="5dp"
-                        />
+                        android:textColor="@color/negro" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -263,5 +261,4 @@
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
-
 </FrameLayout>

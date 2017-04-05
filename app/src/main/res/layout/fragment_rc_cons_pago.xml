@@ -2,26 +2,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.muniappbeta.forms.RcConsPagoFragment"
-    android:padding="16dp">
-
-    <!-- TODO: Update blank fragment layout -->
+    tools:context="pe.gob.munihuacho.municipalidadhuacho.forms.RcConsPagoFragment">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:fillViewport="true"
+        android:nestedScrollingEnabled="false">
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:isScrollContainer="false">
+            android:layout_height="wrap_content"
+            android:isScrollContainer="true">
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1">
 
                 <EditText
@@ -35,7 +33,9 @@
                     android:hint="@string/ingreseRecibo"
                     android:paddingLeft="5dp"
                     android:layout_marginRight="5dp"
-                    android:paddingRight="5dp" />
+                    android:paddingRight="5dp"
+                    android:textColorHint="@color/gris"
+                    android:textColor="@android:color/black" />
 
                 <Button
                     android:text="@string/consultar"
@@ -44,14 +44,15 @@
                     android:id="@+id/btnConsultaRC"
                     android:layout_weight="2"
                     android:textSize="12sp"
-                    android:background="@drawable/button_style"/>
+                    android:background="@drawable/button_style"
+                    android:textColor="@color/negro" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1">
 
                 <LinearLayout
@@ -80,7 +81,8 @@
                         android:paddingRight="5dp"
                         android:background="@drawable/textviewstyle"
                         android:layout_marginRight="5dp"
-                        android:textSize="13sp" />
+                        android:textSize="13sp"
+                        android:textColor="@color/negro" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -109,14 +111,15 @@
                         android:paddingRight="5dp"
                         android:background="@drawable/textviewstyle"
                         android:layout_marginLeft="5dp"
-                        android:textSize="13sp" />
+                        android:textSize="13sp"
+                        android:textColor="@color/negro" />
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1">
 
                 <LinearLayout
@@ -142,14 +145,15 @@
                         android:paddingLeft="5dp"
                         android:background="@drawable/textviewstyle"
                         android:paddingRight="5dp"
-                        android:textSize="13sp" />
+                        android:textSize="13sp"
+                        android:textColor="@color/negro" />
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1">
 
                 <LinearLayout
@@ -174,14 +178,15 @@
                         android:gravity="center_vertical"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
-                        android:background="@drawable/textviewstyle"/>
+                        android:background="@drawable/textviewstyle"
+                        android:textColor="@color/negro" />
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1">
 
                 <TextView
@@ -208,7 +213,7 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1">
 
                 <LinearLayout
@@ -228,7 +233,8 @@
                         android:paddingLeft="5dp"
                         android:text="Lib:"
                         android:textSize="13sp"
-                        android:layout_marginBottom="1dp" />
+                        android:layout_marginBottom="1dp"
+                        android:textColor="@color/negro" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -240,7 +246,8 @@
                         android:paddingLeft="5dp"
                         android:text="Folio:"
                         android:textSize="13sp"
-                        android:layout_marginBottom="1dp" />
+                        android:layout_marginBottom="1dp"
+                        android:textColor="@color/negro" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -259,14 +266,15 @@
                         android:gravity="center"
                         android:background="@drawable/textviewstyle"
                         android:text="S./0.00"
-                        android:textSize="13sp" />
+                        android:textSize="13sp"
+                        android:textColor="@color/negro" />
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1">
 
                 <LinearLayout
@@ -285,7 +293,8 @@
                         android:paddingLeft="5dp"
                         android:gravity="center_vertical"
                         android:background="@drawable/textviewstyle"
-                        android:textSize="13sp" />
+                        android:textSize="13sp"
+                        android:textColor="@color/negro" />
 
                     <TextView
                         android:text="@string/totalAPagar"
@@ -314,7 +323,8 @@
                         android:background="@drawable/textviewstyle"
                         android:gravity="center"
                         android:paddingLeft="5dp"
-                        android:textSize="13sp" />
+                        android:textSize="13sp"
+                        android:textColor="@color/negro" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -325,7 +335,8 @@
                         android:paddingLeft="5dp"
                         android:gravity="center"
                         android:layout_marginTop="1dp"
-                        android:textSize="13sp" />
+                        android:textSize="13sp"
+                        android:textColor="@color/negro" />
                 </LinearLayout>
             </LinearLayout>
 

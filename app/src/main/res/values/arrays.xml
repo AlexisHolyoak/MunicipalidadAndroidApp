@@ -26,5 +26,13 @@
         <item>Fecha de defuncion</item>
         <item>Fecha de inscripcion</item>
     </string-array>
-
+    <string-array name="cabecera_papeletas">
+        <item>DNI</item>
+        <item>Fech. Infracción</item>
+        <item>Num. Papeleta</item>
+        <item>Tipo Infracción</item>
+        <item>Placa</item>
+        <item>Monto</item>
+        <item>Estado</item>
+    </string-array>
 </resources>
