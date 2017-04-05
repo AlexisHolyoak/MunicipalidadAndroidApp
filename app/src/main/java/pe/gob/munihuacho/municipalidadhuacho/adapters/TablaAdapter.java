@@ -81,8 +81,9 @@ public class TablaAdapter {
             TextView texto = new TextView(actividad);
             layoutCelda = new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT);
             texto.setText(arraycabecera[i]);
-            texto.setWidth(300);
+            texto.setWidth(100);
             texto.setGravity(Gravity.CENTER);
+            texto.setTextColor(Color.BLACK);
             texto.setBackgroundResource(R.drawable.tabla_celda_cabecera);
             texto.setLayoutParams(layoutCelda);
             fila.addView(texto);
@@ -157,7 +158,7 @@ public class TablaAdapter {
      * @param texto Texto
      * @return Ancho en píxeles del texto
      */
-    private int obtenerAnchoPixelesTexto(String texto)
+    public int obtenerAnchoPixelesTexto(String texto)
     {
         Paint p = new Paint();
         Rect bounds = new Rect();

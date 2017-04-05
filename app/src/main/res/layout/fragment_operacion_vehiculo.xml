@@ -35,8 +35,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
                 android:layout_marginBottom="2dp">
 
                 <LinearLayout
@@ -64,7 +62,7 @@
                         <EditText
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:inputType="textPersonName"
+                            android:inputType="number"
                             android:ems="10"
                             android:id="@+id/inputPlacaPadronOV"
                             android:layout_weight="1"
@@ -102,19 +100,17 @@
             </LinearLayout>
 
             <HorizontalScrollView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:fillViewport="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp">
+                android:fillViewport="true">
 
                 <TableLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
@@ -135,7 +131,7 @@
                     </TableRow>
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
@@ -156,7 +152,7 @@
                     </TableRow>
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
@@ -177,7 +173,7 @@
                     </TableRow>
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
@@ -198,7 +194,7 @@
                     </TableRow>
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
@@ -219,7 +215,7 @@
                     </TableRow>
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
@@ -240,7 +236,7 @@
                     </TableRow>
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
@@ -261,7 +257,7 @@
                     </TableRow>
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
@@ -282,7 +278,7 @@
                     </TableRow>
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
@@ -303,7 +299,7 @@
                     </TableRow>
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
@@ -324,7 +320,7 @@
                     </TableRow>
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
@@ -345,7 +341,7 @@
                     </TableRow>
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
@@ -366,7 +362,7 @@
                     </TableRow>
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
@@ -387,7 +383,7 @@
                     </TableRow>
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 

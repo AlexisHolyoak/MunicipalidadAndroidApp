@@ -175,6 +175,10 @@ public class ConsultaPapeletasFragment extends Fragment {
 
         @Override
         protected void onPostExecute(String children) {
+            if(notEthernetConnection!=""){
+                super.onPostExecute(children);
+                Toast.makeText(getActivity(), notEthernetConnection, Toast.LENGTH_SHORT).show();
+            }
             if (!listPapeleta.isEmpty()){
                 super.onPostExecute(children);
                 addDataRow(listPapeleta);
@@ -227,9 +231,9 @@ public class ConsultaPapeletasFragment extends Fragment {
     }
     /**CONFIGURACIONES PARA LOS ELEMENTOS DE LA FILA**/
     public  void configurarTextViews(TextView[] textViews){
+
         for (int i=0;i<textViews.length;i++){
-            textViews[i].setWidth(300);
-            //  texto[i].setHeight(80);
+            textViews[i].setWidth(100);
             textViews[i].setPadding(20, 0, 0, 0);
             textViews[i].setGravity(Gravity.CENTER_VERTICAL);
             textViews[i].setBackgroundResource(R.drawable.table_rows);
